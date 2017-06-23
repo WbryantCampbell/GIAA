@@ -12,17 +12,17 @@ def main() :
 	
 	a = sys.argv[1]
 	b = int(a)
-	msg = options[b]()
+	msg = options[b]
 	device.show_message(msg)	
 
 options = {0: 'Thank You!',
 			1: 'Go Around!',
 			2: 'Left Lane is for Passing!',
-			3: 'F*#$% Y&%$',}
+			3: 'Learn to Drive!',}
 	
 if __name__ == '__main__' :
 
-    device.show_message(sys.argv[0])
+    #device.show_message(sys.argv[0])
     main()
 
 	
