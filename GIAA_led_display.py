@@ -13,12 +13,14 @@ def main() :
 	a = sys.argv[1]
 	b = int(a)
 	msg = options[b]
-	device.show_message(msg)	
+	#device.show_message(msg)	
+	print(msg)
 
-options = {0: 'Thank You!',
+options = {0: '',
 			1: 'Go Around!',
 			2: 'Left Lane is for Passing!',
-			3: 'Learn to Drive!',}
+			3: 'Learn to Drive!',
+			4: 'Thank You!',}
 	
 if __name__ == '__main__' :
 
