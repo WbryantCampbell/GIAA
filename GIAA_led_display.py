@@ -23,7 +23,6 @@ options = {0: '',
 			4: 'Thank You!',}
 	
 if __name__ == '__main__' :
-
     #device.show_message(sys.argv[0])
     main()
 
