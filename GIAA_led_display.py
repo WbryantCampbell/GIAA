@@ -13,8 +13,8 @@ def main() :
 	a = sys.argv[1]
 	b = int(a)
 	msg = options[b]
-	#device.show_message(msg)	
-	print(msg)
+	device.show_message(msg)	
+	#print(msg)
 
 options = {0: '',
 			1: 'Go Around!',
